@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>jQuery Background Cycle Plugin Example</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet" type="text/css" href="css/example.css">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script type="text/javascript" src="js/background.cycle.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function() {
+            $("header").backgroundCycle({
+                imageUrls: [
+                    'res/img/bg1.jpg',
+                    'res/img/bg2.jpg',
+                    'res/img/bg3.jpg'
+                ],
+                fadeSpeed: 2000,
+                duration: 3000,
+                backgroundSize: SCALING_MODE_COVER
+            });
+        });
+      </script>
+    </head>
+    <body style="margin: 0;">
+      <header></header>
+      <div class="jquery-script-ads" align="center"></div>
+      <div class='centre-container'>
+          <h1>jQuery Background Cycle Plugin Example</h1>
+          111
+      </div>
+    </body>
+</html>

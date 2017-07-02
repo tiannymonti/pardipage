@@ -1,0 +1,53 @@
+{
+  "name": "scipy",
+  "version": "0.1.4",
+  "description": "Node wrapper for Python's SciPy library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha integrate/test && mocha optimize/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acjones617/scipy-node.git"
+  },
+  "keywords": [
+    "scipy",
+    "math",
+    "science",
+    "integrate",
+    "optimize",
+    "derivative",
+    "minimize",
+    "root",
+    "functions"
+  ],
+  "author": {
+    "name": "Andrew Jones"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acjones617/scipy-node/issues"
+  },
+  "homepage": "https://github.com/acjones617/scipy-node",
+  "gitHead": "647919fb55350e2ed9284e11890eefd655b3b187",
+  "_id": "scipy@0.1.4",
+  "_shasum": "371bd1871249aeebe9505a827e2f92fe2e7e5bbb",
+  "_from": "scipy@latest",
+  "_npmVersion": "1.4.14",
+  "_npmUser": {
+    "name": "acjones617",
+    "email": "acjones617@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "acjones617",
+      "email": "acjones617@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "371bd1871249aeebe9505a827e2f92fe2e7e5bbb",
+    "tarball": "https://registry.npmjs.org/scipy/-/scipy-0.1.4.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/scipy/-/scipy-0.1.4.tgz"
+}
